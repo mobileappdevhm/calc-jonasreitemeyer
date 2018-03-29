@@ -1,6 +1,11 @@
  os:
    - linux
  sudo: false
+ language: android
+ android:
+   components:
+    - build-tools-26.0.2
+    - android-27
  addons:
    apt:
      # Flutter depends on /usr/lib/x86_64-linux-gnu/libstdc++.so.6 version GLIBCXX_3.4.18
